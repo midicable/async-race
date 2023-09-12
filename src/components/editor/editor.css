@@ -1,0 +1,58 @@
+.editor {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: stretch;
+  row-gap: 5px;
+  justify-content: stretch;
+  width: 291px;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+input {
+  outline: none;
+  border: none;
+}
+
+.editor__text-input {
+  border-radius: 3px;
+}
+
+.editor * {
+  margin-right: 5px;
+  margin-bottom: 5px;
+}
+
+.editor__race-button,
+.editor__reset-button,
+.editor__generate-button {
+  position: relative;
+  width: 70px;
+  height: 20px;
+  margin-right: 3px;
+  background-color: #e3edfc;
+  border: none;
+  border-bottom: 4px solid #487ce0;
+  border-radius: 3px;
+}
+
+.editor__generate-button {
+  width: 138px;
+}
+
+.editor__race-button:hover,
+.editor__reset-button:hover,
+.editor__generate-button:hover {
+  cursor: pointer;
+}
+
+.editor__race-button:disabled,
+.editor__reset-button:disabled,
+.editor__generate-button:disabled {
+  cursor: default;
+}
+
+.editor > button:enabled:active {
+  top: 2px;
+  border-bottom: 1px solid #487ce0;
+}

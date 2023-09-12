@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: #fdfdfd;
+  overflow-y: scroll;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+#root {
+  min-height: 100vh;
+  height: 100%;
+  background-color: #202020;
+}
+
+.button {
+  font-size: 12px;
+  font-weight: bold;
+  outline: none;
+}
+

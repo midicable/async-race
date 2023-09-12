@@ -1,0 +1,41 @@
+#number-col,
+#wins-col,
+#time-col {
+  cursor: pointer;
+  color: rgb(255, 155, 4);
+}
+
+#number-col:hover,
+#wins-col:hover,
+#time-col:hover {
+  cursor: pointer;
+}
+
+th {
+  background-color: blue;
+}
+
+.id-col,
+.car-col,
+.name-col,
+.wins-col,
+.time-col {
+  width: 200px;
+  text-align: center;
+}
+
+.name-col {
+  text-align: left;
+}
+
+.sort-asc::after {
+  position: relative;
+  left: 5px;
+  content: '↑';
+}
+
+.sort-desc::after {
+  position: relative;
+  left: 5px;
+  content: '↓';
+}

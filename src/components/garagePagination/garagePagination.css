@@ -1,0 +1,34 @@
+.pagination__header {
+  font-size: 120%;
+  margin-bottom: 20px;
+}
+
+.pagination__page-number {
+  font-size: 100%;
+  margin-bottom: 20px;
+}
+
+.button-prev,
+.button-next {
+  position: relative;
+  width: 70px;
+  margin-top: 15px;
+  margin-right: 3px;
+  background-color: #e5f8b4;
+  border: none;
+  border-bottom: 4px solid #8bbf4d;
+  border-radius: 3px;
+}
+.button-prev:hover,
+.button-next:hover {
+  cursor: pointer;
+}
+.button-prev:disabled,
+.button-next:disabled {
+  cursor: default;
+}
+.button-prev:enabled:active,
+.button-next:enabled:active {
+  top: 2px;
+  border-bottom: 1px solid #8bbf4d;
+}
