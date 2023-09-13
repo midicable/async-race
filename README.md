@@ -1,6 +1,4 @@
 # Async Race 🏁
-
-## About the project
 ![image](https://github.com/midicable/async-race/assets/104969521/f1b6787d-2954-4f1c-b185-ecad87e27f17)
 ![image](https://github.com/midicable/async-race/assets/104969521/ab58d04e-00c3-443a-94f7-8f90a5c3b38f)
 
